@@ -7,7 +7,7 @@ body {
    /* Heading 1 elements */
    h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "san serif"; /* Sets the font family of
+    font-family: "Trebuchet MS", Optima; /* Sets the font family of
    all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
@@ -29,7 +29,7 @@ body {
    }
    /* Paragraph elements */
    p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
@@ -110,7 +110,7 @@ body {
    .Navbar {
     overflow: hidden; /* This ensures that any content that overflows
    beyond the boundary of our nav bar is not displayed */
-    background-color: blue; /* This colors the navbar black */
+    background-color: black; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen
    as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
@@ -131,7 +131,6 @@ body {
     to {left: 0vw;} /* This moves the navbar into place on the screen
    */
    }
-   
    /* Navbar links */
    .Navbar a {
     float: left; /* This specifies that the text floats on the left on
